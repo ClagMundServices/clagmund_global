@@ -29,8 +29,8 @@ Once added to your server:
 | `!removestreamer <TwitchUsername>` | Remove a Twitch streamer from tracking in this server | `!removestreamer iclagzi` |
 | `!multistream` | Creates a link to multistream using all currently active streamers |  `!multistream`  |
 | `!streamstats <TwitchUsername>` | Show the XP and total stream time of a specific streamer in the current server | `!streamstats iclagzi` |
-| `!serverleaderboard` | Show the top 10 streamers based on XP and stream time for the current server | `!serverleaderboard` |
-| `!globalleaderboard` | Show the top 10 streamers across all servers, using their highest recorded XP and stream time | `!globalleaderboard` |
+| `!streamleaderboard` | Show the top 10 streamers based on XP and stream time for the current server | `!streamleaderboard` |
+| `!globalstreamleaderboard` | Show the top 10 streamers across all servers, using their highest recorded XP and stream time | `!globalstreamleaderboard` |
 | `!serverview` | Show the current server stats, combined XP and stream time along with total number of streamers | `!serverview` |
 
 ### 📲 **IDs & Placeholders**
@@ -75,13 +75,13 @@ If you don’t want to assign a **Live Role** or **Notification Role**, use `non
 
 ### **Server Leaderboard**
 ```
-!serverleaderboard
+!streamleaderboard
 ```
 🔹 Displays the **top 10 streamers** in your Discord server **ranked by XP and total stream time**.
 
 ### **Global Leaderboard**
 ```
-!globalleaderboard
+!globalstreamleaderboard
 ```
 🔹 Displays the **top 10 streamers across ALL servers** using the bot.
 🔹 If a streamer is in **multiple servers**, only their **highest** XP and stream time are considered.
