@@ -62,3 +62,7 @@
 - Rename `#live-alerts` if you want, but keep it text-based and visible to members.
 - Adjust **Stream Alerts** role permissions if you want only certain people to be notified.
 - Members can join/leave the **Stream Alerts** role if you make it self-assignable.
+
+---
+
+[Bot Link](https://discord.com/oauth2/authorize?client_id=1337191599477755935)
